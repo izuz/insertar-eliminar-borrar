@@ -79,8 +79,8 @@ h1{
 		<td><?php echo $row->apellidos;?></td>
 		<td>
 
-<a class="btn btn-primary" href="editar.php?id=<?php echo $row->id; ?>"><input type="image" src="lapiz.jpg"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
-<a class="btn btn-primary"  href="borrar.php?id=<?php echo $row->id;?>"><input type="image" src="papelera.png"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></a>
+                    <a class="btn btn-primary" href="editar.php?id=<?php echo $row->id; ?>"><input type="image" src="lapiz.jpg"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                    <a class="btn btn-primary"  href="borrar.php?id=<?php echo $row->id;?>"><input type="image" src="papelera.png"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></a>
 </td>
 	</tr>
 	<?php } ?>
